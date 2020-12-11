@@ -34,7 +34,5 @@ char * getCpu() {
 	return cpuinfo;
 }
 void main() {
-	printf("CPU: ");
-	printf(getCpu(), "%s");
-	printf("\n\n");
+	printf("CPU: %s\n", getCpu());
 }
